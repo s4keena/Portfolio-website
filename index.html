@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakeena's Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav id="navbar" class="navbar">
+      <a href="#about">About Me</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/s4keena" target="_blank">GitHub</a>
+    </nav>
+  </header>
+
+  <!-- Sections -->
+  <section id="about" class="section">
+    <div class="aboutbox">
+      <div class="aboutpic">
+        <img src="images/facecard.jpg" alt="My Photo">
+      </div>
+      <div class="abouttext">
+        <h2>Hello, My name is <span id="name">Sakeena</span>!</h2>
+        <p>I am a motivated and passionate student seeking
+          to gain hands on experience. Outgoing and
+          friendly, with a drive for success. Always
+          looking out for new opportunities.</p>
+      </div>
+    </div>
+    </section>
+
+    <!--Projects-->
+    <section id="projects" class="projects-section">
+      <h2 class="projects-title">Here are a few things I've worked on!</h2>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="images/petdoor.jpg" alt="Project 1">
+          <h3>IOT-based device (Automated pet door)</h3>
+          <p>This project involved creating an automated pet door system using IoT devices. It integrates sensors and a microcontroller to open the door when a pet approaches.</p>
+        </div>
+        
+        <div class="project-card">
+          <img src="images/minesweeper.png" alt="Project 2">
+          <h3>Minesweeper game duplicate</h3>
+          <p>A clone of the classic Minesweeper game.</p>
+        </div>
+    
+        <div class="project-card">
+          <img src="images/minesweeper.png" alt="Project 2">
+          <h3>Websites</h3>
+          <p>Built websites using HTML/CSS/JavaScript.</p>
+        </div>
+    
+        <!-- Add more project cards here -->
+      </div>
+    </section>
+    
+
+<!--resume-->
+<section id="resume" class="resumebox">
+  <div class="resume-container">
+    <div class="resume-text">
+      <h2>Here is my resume!</h2>
+      <p>I am a motivated and passionate student seeking
+         to gain hands-on experience. Outgoing and
+         friendly, with a drive for success. Always
+         looking out for new opportunities.</p>
+      <p>Want to know more about my skills and experience?</p>
+    </div>
+
+    <div class="resume-side">
+      <div class="resume-pic">
+        <img src="images/resume.png" alt="My Resume Photo">
+      </div>
+      <div class="resume-btn">
+        <a href="resume.pdf" download class="download-btn">Download Resume (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--contact me-->
+<section id="contact" class="section">
+  <h1>Send me a message!</h1>
+  <form id="contact-form">
+    <div class="input-row">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+    </div>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+
+  <footer>
+    <p>© 2025 Sakeena. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
