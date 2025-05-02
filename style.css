@@ -50,10 +50,10 @@ body {
 
 .projects-container {
   display: flex;
-  gap: 2rem; /* Space between each project card */
-  justify-content: center; /* Center all cards horizontally */
-  flex-wrap: nowrap; /* no wrapping, all in one line */
-  overflow: visible; /* scroll horizontally if too many cards */
+  gap: 2rem;
+  justify-content: center; 
+  flex-wrap: nowrap; 
+  overflow: visible;
   padding: 2rem;
 }
 
@@ -90,9 +90,9 @@ body {
 }
 
 .project-card:hover {
-  transform: scale(1.2); /* Make it 5% bigger on hover */
+  transform: scale(1.2);
   z-index: 999;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Optional: add soft shadow on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .projects-title {
@@ -147,7 +147,7 @@ body {
 
 #contact-form input:focus,
 #contact-form textarea:focus {
-  border-bottom: 2px solid #000000; /* underline changes color when typing */
+  border-bottom: 2px solid #000000; 
 }
 
 #contact-form textarea {
@@ -202,6 +202,7 @@ footer {
   background: rgba(232, 146, 178, 0.8);
 }
 
+/* about */
 #about {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7) 2%, rgba(255, 255, 255, 0) 60%), url('images/bg.jpg') no-repeat center center/cover;
   min-height: 100vh;
@@ -214,7 +215,7 @@ footer {
 .aboutbox {
   display: flex;
   align-items: center;
-  background: rgba(250, 197, 229, 0.8); /* Soft white background */
+  background: rgba(250, 197, 229, 0.8); 
   border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   overflow: hidden;
@@ -234,7 +235,7 @@ footer {
   width: 400px;
   height: 400px;
   object-fit: cover;
-  border-radius: 50%; /* Makes it a circle */
+  border-radius: 50%; 
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
@@ -269,14 +270,14 @@ footer {
 }
 
 .aboutpic img {
-  transition: opacity 0.3s ease; /* Smooth transition for opacity */
+  transition: opacity 0.3s ease; 
 }
 
 .aboutpic img.fade {
-  opacity: 0; /* Make image fade out */
+  opacity: 0; 
 }
 
-/* Resume Section Box */
+/* Resume */
 .resumebox {
   background: #d6905b;
   padding: 60px 40px;
@@ -285,7 +286,6 @@ footer {
   align-items: center;
 }
 
-/* The Box Container */
 .resume-container {
   max-width: 1200px;
   width: 100%;
@@ -297,7 +297,6 @@ footer {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Text */
 .resume-text {
   flex: 1;
   display: flex;
@@ -305,7 +304,6 @@ footer {
   justify-content: center;
 }
 
-/* Right Side (Image + Button) */
 .resume-side {
   display: flex;
   flex-direction: column;
@@ -313,7 +311,6 @@ footer {
   flex: 0.8;
 }
 
-/* Resume Image */
 .resume-pic img {
   width: 100%;
   max-width: 300px;
@@ -322,7 +319,6 @@ footer {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Download Button */
 .resume-btn .download-btn {
   padding: 10px 20px;
   background-color: rgba(232, 146, 178, 0.8);
